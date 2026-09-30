@@ -4,7 +4,7 @@ import sqlite3
 import plotly.express as px
 
 from build_db import build
-
+build()
 
 st.set_page_config(page_title="Weather Dashboard", layout="wide")
 
