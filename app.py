@@ -3,9 +3,6 @@ import pandas as pd
 import sqlite3
 import plotly.express as px
 
-import build_db
-build_db()
-
 st.set_page_config(page_title="Weather Dashboard", layout="wide")
 
 @st.cache_data #prevents data reload
